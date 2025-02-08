@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --main-color: #762338;
+    --sec-color: #AC033C;
+    --white-color: #D9D9D9;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-cairo), sans-serif;
+
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.icon {
+    display: flex;
+}
