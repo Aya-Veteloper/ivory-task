@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={cairo.variable}
       >
-        {/* Header */}
+
         <Header />
         <div>{children}</div>
         <Footer />

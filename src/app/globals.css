@@ -25,3 +25,16 @@ body {
 .icon {
     display: flex;
 }
+
+.training-landing {
+    background-image: url(/images/handshake.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-color: rgba(124, 53, 71, .5);
+    padding: 40px 0;
+}

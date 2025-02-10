@@ -9,7 +9,7 @@ export default function Header() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [dropdown, setDropdown] = useState(false);
     return (
-        <header className="h-auto w-screen bg-main text-white p-4 shadow-md">
+        <header className="relative h-auto bg-main text-white p-4 shadow-md">
             <div className="container mx-auto px-4">
                 <nav className="flex justify-between items-center h-16">
 
